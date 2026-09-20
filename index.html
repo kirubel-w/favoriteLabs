@@ -1,35 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Basic Page</title>
+    <title>My Favorite Things</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
-    <h1>HTML</h1>
-    <p>Welcome to My HTML Page. Here are my favorite activities</p>
-    <ul>
-        <li>Learning HTML</li>
-        <li>Coding </li>
-        <li>Learning about technology</li>
-    </ul>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements">Link</a><br>
-    <img src="img/jackson-sophat-_t-l5FFH8VA-unsplash.jpg" width="400px" height="300px" alt="description">
 
-    <table border="1">
-        <tr>
-            <th>HTML Tag</th>
-            <th>What It Does</th>
-        </tr>
-        <tr>
-            <td>h1</td>
-            <td>Main heading</td>
-        </tr>
-        <tr>
-            <td>p</td>
-            <td>Paragraph of text</td>
-        </tr>
-    </table>
+<body>
+
+    <!-- Page header -->
+    <div id="page-header">
+        <h1>My Favorite Things</h1>
+    </div>
+
+    <!-- Favorite movie -->
+    <div class="favorite-section">
+        <h2 id="favorite-movie">Favorite Movie</h2>
+
+        <p>
+            My favorite movie is <cite>The Theory of Everything</cite>.
+            I like the story, the characters, and the story of Hawking's scientific achievements and his determination
+            to continue his work after being diagnosed with motor neuron disease.
+        </p>
+
+        <a href="https://www.imdb.com/title/tt2980516/plotsummary/?ref_=tt_ov_pl">Learn more The Theory of
+            Everything</a>
+    </div>
+
+    <div class="favorite-section">
+        <h2>Favorite Artist</h2>
+
+        <p>
+            My favorite band is <strong>Parliament-Funkadelic</strong>. They are known for their unique blend of funk,
+            soul, and rock music.
+        </p>
+
+        <a href="https://en.wikipedia.org/wiki/Parliament-Funkadelic">Visit Parliament's wikipedia website</a>
+    </div>
+
+    <!-- Favorite foods -->
+    <div class="favorite-section">
+        <h2>My Favorite Foods</h2>
+        <p>My favorite foods include pizza, hamburger and kebab.
+        </p>
+        <ul>
+            <li>Biryani & Curries</li>
+            <li id="most-favorite-food">Steak</li>
+            <li>Kabob</li>
+        </ul>
+    </div>
+
+    <!-- Favorite foods table -->
+    <div class="favorite-section">
+        <h2>Favorite Foods Table</h2>
+
+        <table>
+            <tr>
+                <th>Food</th>
+                <th>Why I Like It</th>
+            </tr>
+
+            <tr>
+                <td>Kebab</td>
+                <td>It has a delicious grilled flavor.</td>
+            </tr>
+
+            <tr>
+                <td>Steak</td>
+                <td>I like its rich flavor and texture.</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Favorite images -->
+    <div class="fav-section">
+        <h2>Some Favorite Images</h2>
+        <img class="fav-image" src="images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" alt="steak served with french
+            fries">
+        <img class=" fav-image" src="images/suad-kamardeen-3lnsCAQm23U-unsplash.jpg"
+            alt="Grilled kebabserved with rice and vegetables">
+    </div>
+
+
+
 </body>
 
 </html>
