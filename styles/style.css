@@ -1,0 +1,84 @@
+body {
+ 
+   background-color: lightgray;
+   font-family: Arial, sans-serif;
+   color: black;
+   margin: 20px;
+   padding: 15px;
+   border: 2px solid purple;
+}
+
+h1 {
+    color: purple;
+    padding: 10px;
+}
+
+h2 {
+    color: darkblue;
+    margin-top: 20px;
+}
+
+p {
+    background-color: white;
+    color: darkblue;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+img {
+    width: 250px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid purple;
+}
+
+#most-favorite-food {
+    color: purple;
+    background-color: lightyellow;
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th {
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    background-color: lightyellow;
+    border: 2px solid purple;
+    padding: 10px;
+}
+
+.fav-image {
+    width: 250px;
+    border-radius: 15px;
+}
+
+#page-header {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.favorite-section {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid purple;
+}
+
+#favorite-movie {
+    color: purple;
+    padding: 10px;
+}
+
+a {
+    color: purple;
+    font-weight: bold;
+}
